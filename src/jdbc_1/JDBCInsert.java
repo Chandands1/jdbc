@@ -14,7 +14,7 @@ public class JDBCInsert {
 			 
 			    Statement statement = connection.createStatement();
 			    
-			    statement.executeUpdate("insert into registration values('chandan','mandya','chandan@gmail.com','9008531478')");
+			    statement.executeUpdate("insert into registration values('harshith','pandavapura','harshith@gmail.com','0088995566')");
 			connection.close();
 		} catch (Exception e) {
 			e.printStackTrace();
